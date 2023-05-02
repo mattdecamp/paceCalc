@@ -65,6 +65,7 @@ export default function PacePanel() {
     console.log("Pace: " + paceHours, paceMinutes, paceSeconds);
   }
 
+  // reset input fields 
   function handleReset() {
     setHours("");
     setMinutes("");
