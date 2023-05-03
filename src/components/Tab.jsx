@@ -1,6 +1,6 @@
-export default function Tab({ children, selected, id, onClick}) {
+export default function Tab({ children, onClick, isActive}) {
   return (
-    <button type="button" role="tab" onClick={onClick} aria-selected={selected} id={id}>
+    <button type="button" role="tab" onClick={onClick} className={ isActive ? 'tab--active' : ''}>
       {children}
     </button>
   );

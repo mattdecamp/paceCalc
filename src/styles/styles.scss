@@ -13,7 +13,6 @@
 body {
     margin: 0;
     width: 100vw;
-    // height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,12 +30,12 @@ body {
 #wrapper {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     max-width: 90%;
     border-radius: 2ch;
     box-shadow: 15px 20px 20px -20px rgba(0, 0, 0, 1);
     overflow: hidden;
 }
-
 
 #container {
     position:relative;
